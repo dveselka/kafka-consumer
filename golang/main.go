@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/dveselka/kafka-consumer/goalng/consumer"
 )
 
 func main() {
