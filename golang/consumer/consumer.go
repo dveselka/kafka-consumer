@@ -1,4 +1,4 @@
-package main
+package consumer
 
 import (
 	"log"
@@ -14,7 +14,7 @@ const (
 	KafkaTopic = "test-topic"
 )
 
-func main() {
+func Consume() {
 	// create consumer
 	consumer, err := sarama.NewConsumer([]string{KafkaConnectionString}, nil)
 
