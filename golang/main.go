@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-
-	"consumer"
 )
 
 func main() {
 	// send message to Kafka
-	message := consumer.Produce()
+	message := consumer.Consume()
 	fmt.Println(message)
 }
