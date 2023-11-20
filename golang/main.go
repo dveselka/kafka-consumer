@@ -8,6 +8,6 @@ import (
 
 func main() {
 	// send message to Kafka
-	message := consumer.Consume()
+	message := Consumer.Consume()
 	fmt.Println(message)
 }
